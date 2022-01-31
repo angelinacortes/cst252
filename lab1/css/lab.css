@@ -1,0 +1,18 @@
+body {
+  background-color: #607d8b;
+  margin: 75px;
+}
+
+h1 {
+  font-size: 300%;
+}
+
+p {
+  color: white;
+}
+
+#content {
+  background-color: #8b8b8b9e;
+  border: dotted;
+  padding: 50px;
+}
