@@ -1,0 +1,30 @@
+body {
+  background-color: #697859;
+  margin: 75px;
+}
+
+h1 {
+  font-size: 300%;
+  color: #fff;
+  text-shadow: 3px 0 0 #000, 0 -1px 0 #000, 0 2px 0 #000, -1px 0 0 #000;
+}
+
+
+h2 {
+  color: #fff;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  font-size: 150%;
+}
+
+#content {
+  border: solid;
+  background-color: #e5d9d99e;
+  padding: 25px;
+}
+
+#output {
+  -webkit-column-width: 200px; /* Chrome, Safari, Opera */
+    -moz-column-width: 200px; /* Firefox */
+    column-width: 200px;
+    /* borrowed code from Wes's website. */
+}
