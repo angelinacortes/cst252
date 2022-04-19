@@ -7,7 +7,7 @@
 
  // Pick an URL from the numbers API: http://numbersapi.com/
  //var url = "http://numbersapi.com/random/trivia";
- var url = "https://cataas.com/api/cats?tags=tag1,tag2&skip=0&limit=10";
+ var url = "https://cataas.com/cat?json=true";
  var domain = "https://cataas.com";
 
  // When a user clicks the button
