@@ -4,11 +4,8 @@
  * License: Public Domain
  */
 
-
  // Pick an URL from the numbers API: http://numbersapi.com/
- //var url = "http://numbersapi.com/random/trivia";
- var url = "https://cataas.com/cat?json=true";
- var domain = "https://cataas.com";
+ var url = "http://numbersapi.com/random/trivia";
 
  // When a user clicks the button
  $("#activate").click(getAjax);
@@ -30,9 +27,8 @@
    .done(function( data ) {
        //alert("Success!");
        console.log(data);
-       fullUrl = domain + data.url;
        // Insert the output in the output div
-       $("#output").html("<img src=" + fullUrl + ">");
+       $("#output").prepend("<p>" + data);
    })
    // If the request fails
    .fail(function( xhr, status, errorThrown ) {
